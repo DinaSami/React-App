@@ -15,3 +15,15 @@ img{
   width: 400px;
   height: 300px;
 }
+.card{
+  margin: 10px 10px;
+  color: red;
+  text-align: center;
+  box-shadow: 3px 3px   rgba(0, 0, 0, 0.082);
+}
+#group{ 
+  margin-left: 57px;
+}
+.card img{
+  border-bottom: rgb(95, 94, 94) 3px solid;
+}

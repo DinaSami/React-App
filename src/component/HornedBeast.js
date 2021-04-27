@@ -4,6 +4,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 
+
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
@@ -20,8 +21,9 @@ class HornedBeast extends React.Component {
   }
   render() {
     return (
+
       <div>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} class='card'>
           <Card.Img onClick={this.increaseVotes} variant="top" src={this.props.imgUrl} title={this.props.imgUrl} />
           <Card.Body>
             <Card.Text>
