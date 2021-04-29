@@ -1,8 +1,9 @@
-
-
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+
+
 
 
 class HornedBeast extends React.Component {
@@ -19,12 +20,21 @@ class HornedBeast extends React.Component {
       }
     );
   }
+
+  showModal = () => {
+    this.props.sowModal({
+      name: this.props.name,
+      description: this.props.description,
+      imgUrl: this.props.imgUrl
+    });
+  }
+
   render() {
     return (
 
       <div>
-        <Card style={{ width: '18rem' }} class='card'>
-          <Card.Img onClick={this.increaseVotes} variant="top" src={this.props.imgUrl} title={this.props.imgUrl} />
+        <Card style={{ width: '18rem' }} class='card' onClick={this.showModal}>
+          <Card.Img onClick={this.increaseVotes} variant="top" src={this.props.imgUrl}/>
           <Card.Body>
             <Card.Text>
               {this.props.name}
