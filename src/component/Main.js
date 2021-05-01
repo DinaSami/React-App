@@ -14,7 +14,7 @@ class Main extends React.Component {
   }
 
   render() {
-    let arraElment = this.state.elementData.map(element => {
+    let arraElment = this.props.newDataMain.map(element => {
       return (
         <HornedBeast
           imgUrl={element.image_url}

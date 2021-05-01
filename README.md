@@ -69,7 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 ## class 02
 
 Number and name of feature: Feature #1: Display images
@@ -101,7 +100,6 @@ Start time: 11 PM
 Finish time: 1 Am
 
 Actual time needed to complete: 2 hours
-
 
 ## class 03
 
